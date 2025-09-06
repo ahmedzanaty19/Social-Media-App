@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GetStartedActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/image"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/textS1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Let's connect with each other"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="250dp"
+        />
+
+    <TextView
+        android:layout_width="291dp"
+        android:layout_height="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textS1"
+        android:layout_marginTop="9dp"
+        android:textAlignment="center"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipicing elit, sed do eiusmod"
+        android:textColor="@color/gray"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGet"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="36dp"
+        android:backgroundTint="@color/green"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Get Started"
+        android:textSize="15dp"
+        app:cornerRadius="11dp"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

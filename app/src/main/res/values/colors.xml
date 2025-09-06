@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#4DD969</color>
+    <color name="gray">#919191</color>
+    <color name="blue">#3366FF</color>
+    <color name="graycus">#E5E7EB</color>
+    <color name="txtco">#F4F4F5</color>
+    <color name="txtbl">#111827</color>
+    <color name="darkgrey">#4A4A4A</color>
+    <color name="LightWhite">#EEEEEE</color>
+    <color name="LightGreen">#C9FFD5</color>
+    <color name="GreenAway">#28CD56</color>
+</resources>
