@@ -19,6 +19,7 @@ class GetStartedActivity : AppCompatActivity() {
 
         val intent = Intent (this, SignInActivity::class.java)
         btn.setOnClickListener {
+
             startActivity(intent)
         }
     }
